@@ -1,0 +1,164 @@
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\CarFind.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\CarFind.pdb
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\AppManifest.xaml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\CarFind_Debug_AnyCPU.xap
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.xml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\App.g.cs
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\LocationDetails.g.cs
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\LocationDetailsList.g.cs
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\MainPage.g.cs
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\Maps.g.cs
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.g.resources
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.Resources.AppResources.resources
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.csproj.GenerateResource.Cache
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.dll
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.pdb
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\XapCacheFile.xml
+C:\Users\Brian Varley\Desktop\CarFind-March5\CarFind\CarFind\obj\Debug\CarFind.csprojResolveAssemblyReference.cache
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\CarFind.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\CarFind.pdb
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\AppManifest.xaml
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\CarFind_Debug_AnyCPU.xap
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Advertising.Mobile.xml
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\App.g.cs
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\LocationDetails.g.cs
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\LocationDetailsList.g.cs
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\MainPage.g.cs
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\Maps.g.cs
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.g.resources
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.Resources.AppResources.resources
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.csproj.GenerateResource.Cache
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.dll
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.pdb
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\XapCacheFile.xml
+C:\Users\Brian Varley\Documents\Visual Studio 2012\Projects\CarFind-v2\CarFind\CarFind\obj\Debug\CarFind.csprojResolveAssemblyReference.cache
