@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{bd11712d-6abc-426d-ad5c-0363fa402edf}" Title="CarFind" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CarFind author" Description="Sample description" Publisher="CarFind" PublisherID="{4fb46c11-014e-40fc-9e39-57dd701d506e}">
-    <IconPath IsRelative="true" IsResource="false">Assets\AppIcon.png</IconPath>
+  <Languages xmlns="">
+    <Language code="en-IE" />
+    <Language code="en-GB" />
+    <Language code="en-US" />
+    <Language code="en-NZ" />
+    <Language code="en-CA" />
+    <Language code="en-AU" />
+    <Language code="en" />
+  </Languages>
+  <App xmlns="" ProductID="{bd11712d-6abc-426d-ad5c-0363fa402edf}" Title="Car Find" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Brian Varley" Description="Car Find is an easy to use car parking location app. Just set your parking spot then click the search button to locate your car." Publisher="Brian Varley Apps" PublisherID="{4fb46c11-014e-40fc-9e39-57dd701d506e}">
+    <IconPath IsRelative="true" IsResource="false">CarFindLogo.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_SENSORS" />
@@ -11,12 +20,12 @@
       <Capability Name="ID_CAP_MAP" />
     </Capabilities>
     <Tasks>
-      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+      <DefaultTask Name="_default" NavigationPage="Maps.xaml" />
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="CarFindToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">CarFindStoreTile.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
           <Title>CarFind</Title>

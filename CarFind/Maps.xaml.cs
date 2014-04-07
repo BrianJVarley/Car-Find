@@ -1,152 +1,198 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿#region usings
+
+using System;
+using System.Device.Location;
+using System.IO.IsolatedStorage;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
-using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
 using Windows.Devices.Geolocation;
-using System.Device.Location;
+using Windows.Storage;
+using Microsoft.Phone.Controls;
 using Microsoft.Phone.Maps.Controls;
-using System.Windows.Shapes;
-using System.Windows.Media;
-using System.Threading.Tasks;
-using Microsoft.Phone.Maps.Toolkit;
 using Microsoft.Phone.Maps.Services;
-using System.Collections.ObjectModel;
-using Microsoft.Phone.Tasks;
-using System.Device.Location;
-using System.IO.IsolatedStorage;
+using Microsoft.Phone.Maps.Toolkit;
+using Microsoft.Phone.Shell;
 
+#endregion
 
 namespace CarFind
 {
     public partial class Maps : PhoneApplicationPage
     {
-        
-        ProgressIndicator pi;
-        public List<GeoCoordinate> mycoord = new List<GeoCoordinate>();
-        RouteQuery MyQuery = null;
-        GeocodeQuery Mygeocodequery = null;
-        GeoCoordinate MyGeoPosition = new GeoCoordinate(0, 0); 
-        
-        
+        private readonly MapLayer layer1;
+        private GeoCoordinate MyGeoCoordPosition = new GeoCoordinate(0, 0);
+        private Geoposition MyGeoPosition;
+        private ProgressIndicator pi;
+
+
 
         public Maps()
         {
+            
+            //setting up the progress indicator
             InitializeComponent();
-            pi = new ProgressIndicator();
-            pi.IsIndeterminate = true;
-            pi.IsVisible = false;
-
+            pi = new ProgressIndicator { IsIndeterminate = true, IsVisible = false };
+            //checking to see if ap settings contains a map layer when page initialized
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("MapLayer"))
+                layer1 = IsolatedStorageSettings.ApplicationSettings["MapLayer"] as MapLayer;
+            else
+                layer1 = new MapLayer();
             
-            
+            if (layer1 != null)
+                MyMap.Layers.Add(layer1);
         }
+
 
         //save coordinates after app is closed or naigated from
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
-            if (mycoord.Count > 0)
-            {
-                mycoord.Add(new GeoCoordinate(MyGeoPosition.Latitude, MyGeoPosition.Longitude));
+            var userSettings = IsolatedStorageSettings.ApplicationSettings;
 
-            }
+            //when page closed, add the map layer t user settings
+            if (userSettings.Contains("MapLayer"))
+                userSettings["MapLayer"] = layer1;
+            else
+                userSettings.Add("MapLayer", layer1);
+
+
             base.OnNavigatedFrom(e);
         }
 
-        //Receives coordinate data and push pin name from the GetGeoCoordinate() of MainPage
+        
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-           
-            if (NavigationContext.QueryString.ContainsKey("GeoLat") && NavigationContext.QueryString.ContainsKey("GeoLong") && NavigationContext.QueryString.ContainsKey("pName"))
-            { 
-                    var latitude = Convert.ToDouble(NavigationContext.QueryString["GeoLat"]);
-                    var longtitude = Convert.ToDouble(NavigationContext.QueryString["GeoLong"]);
-                    MyGeoPosition = new GeoCoordinate(latitude, longtitude);
-                    var pushPinName = NavigationContext.QueryString["pName"];
-
-                    DrawPushPin(MyGeoPosition, pushPinName);
-                    
-                    //save the coordinates to a list
-                    mycoord.Add(new GeoCoordinate(MyGeoPosition.Latitude, MyGeoPosition.Longitude));
-
-                    if (mycoord.Count == 2)
-                    {
-                        //call route method when coord list equal to two.
-                        GetRoute();
-                    }
-      
-            }
-
             base.OnNavigatedTo(e);
-        }
+            //asking user for location consent
 
-        //Creates route between coordinate points 
-        private void GetRoute()
-        {
-            
-            MyQuery = new RouteQuery();
-            MyQuery.TravelMode = TravelMode.Walking;
-            MyQuery.Waypoints = mycoord;
-            MyQuery.QueryCompleted += MyQuery_QueryCompleted;
-            MyQuery.QueryAsync();
-        }
-
-        void MyQuery_QueryCompleted(object sender, QueryCompletedEventArgs<Route> e)
-        {
-            if (e.Error == null)
+            //
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("LocationConsent"))
             {
-                Route MyRoute = e.Result;
-                MapRoute MyMapRoute = new MapRoute(MyRoute);
-                MyMap.AddRoute(MyMapRoute);
-                MyQuery.Dispose();
+                // User has opted in or out of Location
+                var locationConsent = (bool)IsolatedStorageSettings.ApplicationSettings["LocationConsent"];
+                if (locationConsent) return;
+                if (NavigationService.CanGoBack)
+                    NavigationService.GoBack();
+                return;
+            }
+            var result =
+                MessageBox.Show("This app accesses your phone's location. Is that ok?",
+                    "Location",
+                    MessageBoxButton.OKCancel);
+
+            IsolatedStorageSettings.ApplicationSettings["LocationConsent"] = result == MessageBoxResult.OK;
+
+        }
+
+
+        /// Getting Current Coordinates.
+        private async Task GetCoordinates()
+        {
+            // Get the phone's current location.
+            var MyGeolocator = new Geolocator { DesiredAccuracyInMeters = 5 };
+
+            try
+            {
+                //return the geoPosition variable to the calling method
+                MyGeoPosition = await MyGeolocator.GetGeopositionAsync();
+            }
+            catch (UnauthorizedAccessException)
+            {
+                MessageBox.Show("Location is disabled in phone settings or capabilities are not checked.");
+            }
+            catch (Exception ex)
+            {
+                // Something else happened while acquiring the location.
+                MessageBox.Show(ex.Message);
             }
         }
+
 
         //Method to draw each pushin to the map
-        private void DrawPushPin(GeoCoordinate MyGeoPosition,string pushPinName)
+        private void DrawPushPin(GeoCoordinate myGeoPosition, string pushPinName, bool clean = false)
         {
-            MapLayer layer1 = new MapLayer();
-            Pushpin pushpin1 = new Pushpin();
+            var pp = new Pushpin { Content = pushPinName };
+            var overlay = new MapOverlay { Content = pp };
 
-            pushpin1.GeoCoordinate = MyGeoPosition;
-            
-            pushpin1.Content = pushPinName;
-            
+            //if map isn't clear,then clear
+            if (clean)
+                layer1.Clear();
 
-            MapOverlay overlay1 = new MapOverlay();
-            overlay1.Content = pushpin1;
-            overlay1.GeoCoordinate = MyGeoPosition;
-            layer1.Add(overlay1);
 
-            MyMap.Layers.Add(layer1);
-            MyMap.Center = MyGeoPosition;
-            MyMap.ZoomLevel = 14;
+            layer1.Add(overlay);
+            layer1[layer1.Count - 1].GeoCoordinate = MyGeoCoordPosition;
+
+            MyMap.Center = myGeoPosition;
+            MyMap.ZoomLevel = 16;
         }
 
         private void Pivot_Loaded_1(object sender, RoutedEventArgs e)
         {
-            
         }
 
-        private void PhoneApplicationPage_Loaded_1(object sender, RoutedEventArgs e)
+        private void deleteBtn_Click(object sender, EventArgs e)
         {
-            
+            MessageBoxResult m = MessageBox.Show("This will delete your parking location,are you sure?.",
+                "Clear Map",  MessageBoxButton.OKCancel);
+
+            if(m == MessageBoxResult.OK)
+            {
+            //clear all map pushpins
+            layer1.Clear();
+            }
             
         }
 
-        //method to clear all pushpins from map,called from clear location button click.
-        public void ClearMapMarkers()
+        private void infoBtn_Click(object sender, EventArgs e)
         {
-            MyMap.MapElements.Clear();
-            mycoord.Clear();
-            
-
+            //go to location details
+            NavigationService.Navigate(new Uri("/LocationDetails.xaml", UriKind.Relative));
         }
 
-       
- 
+        //set location of car and draw pushpin to map
+        private async void setLocationBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = sender as Button;
+            //check button sender if it has been selected
+            if (btn == null)
+                return;
+            var pushPinName = "My Car";
+            await GetCoordinates();
+           
+            MessageBox.Show("Processing", "Please Wait...", MessageBoxButton.OK);
+
+            var latitude = MyGeoPosition.Coordinate.Latitude;
+            var longitude = MyGeoPosition.Coordinate.Longitude;
+            //creates a GeoCoordinate from the lat/lng vars and calls draw pushpin with positon and pin
+            //name as params
+            MyGeoCoordPosition = new GeoCoordinate(latitude, longitude);
+            DrawPushPin(MyGeoCoordPosition, pushPinName, true);
+        }
+
+        private async void findCarBtn_Click(object sender, EventArgs e)
+        {
+            var pushPinName = "Current Location";
+            //had to add a messagebox to bridge the gap between retrieving location and drawing.
+            //looking in to how to increase the processing time of the operation or optimizing the code further..
+            MessageBox.Show("Processing", "Finding car...", MessageBoxButton.OK);
+
+            await GetCoordinates();
+            
+            var latitude = MyGeoPosition.Coordinate.Latitude;
+            var longitude = MyGeoPosition.Coordinate.Longitude;
+
+            //creates a GeoCoordinate from the lat/lng vars and calls draw pushpin with positon and pin
+            //name as params
+            MyGeoCoordPosition = new GeoCoordinate(latitude, longitude);
+            DrawPushPin(MyGeoCoordPosition, pushPinName);
+        }
+
+        //developer key for using maps in the app.
+        private void MyMap_Loaded(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.ApplicationId = "fabb9d79-41c9-4ba6-8e10-7c0c44fb29e1";
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "a9XC-VfBhKWqg17N0_C5hg";
+        }
     }
 }

@@ -8,14 +8,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
     x:Class="CarFind.Maps"
-    xmlns:toolkit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:maptk="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded_1">
+    shell:SystemTray.IsVisible="True">
 
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/feature.search.png" 
+                                            x:Name="findCarBtn" Text="Find Car" 
+                                            Click="findCarBtn_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/delete.png" x:Name="deleteBtn" Text="Delete Pin" Click="deleteBtn_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/questionmark.png" x:Name="infoBtn" Text="Details" Click="infoBtn_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.ColumnDefinitions>
@@ -24,25 +33,32 @@
         </Grid.ColumnDefinitions>
         <!--Pivot Control-->
         <phone:Pivot Title="CAR FIND" Grid.ColumnSpan="2" Loaded="Pivot_Loaded_1">
-          
-
             <phone:PivotItem Header="map">
+                <phone:PivotItem.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Images/ParkingLot.jpg"/>
+                </phone:PivotItem.Background>
 
-                <maps:Map x:Name="MyMap"  HorizontalAlignment="Left" Height="603" LandmarksEnabled="True"  VerticalAlignment="Top" Width="456" >
-                    <toolkit:MapExtensions.Children>
-                        <toolkit:MapItemsControl Name="mapItems">
-                            <toolkit:MapItemsControl.ItemTemplate>
-                                <DataTemplate>
-                                    <toolkit:Pushpin/>
-                                </DataTemplate>
-                            </toolkit:MapItemsControl.ItemTemplate>
-                        </toolkit:MapItemsControl>
-                    </toolkit:MapExtensions.Children>
+                <maps:Map x:Name="MyMap"  HorizontalAlignment="Left"
+                          Height="447" 
+                          LandmarksEnabled="True" PedestrianFeaturesEnabled="True" 
+                          VerticalAlignment="Top" Width="456" Loaded="MyMap_Loaded" >
                 </maps:Map>
-                
-                
+
             </phone:PivotItem>
         </phone:Pivot>
+        <Grid ColumnSpan="2" Margin="20,612,0,0">
+
+            <Button Content="Set Location" 
+                    Grid.Column="0"
+                    Tag="0"
+                Click="setLocationBtn_Click" HorizontalAlignment="Left" 
+                Height="74"  VerticalAlignment="Top"
+                Width="179" />
+            
+        </Grid>
+        
     </Grid>
+
+
 
 </phone:PhoneApplicationPage>

@@ -15,3 +15,5 @@ http://code.msdn.microsoft.com/wpapps/Location-Service-Sample-6b9ef410
 http://tutorial.programming4.us/windows_phone/Windows-Phone-7---Saving-a-File-in-Isolated-Storage-and-Loading-It.aspx
 
 http://code.msdn.microsoft.com/windowsapps/Bing-Maps-LocationTracking-1e490efd
+
+http://anthonyrussell.info/downloads/EZ_Iso.dllDocumentation.pdf
